@@ -1,0 +1,10 @@
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li{
+    text-align: left;
+    text-indent: 10px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    background-color: #fff;
+}
+
+ul{
+    display: flex;
+    /* gap: 5px; */
+}
+
+ul a{
+    padding: 5px 12px;
+    color: black;
+    transition: 0.4s;
+}
+
+ul a:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+
+.active{
+    color: #fff;
+    background-color: black;
+    outline: #687FFF 1px solid;
+}
+
+.notActive{
+    background-color: #fff;
+    color: black;
+}
