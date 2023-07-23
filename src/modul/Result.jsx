@@ -1,4 +1,4 @@
-gitimport React, { useState } from "react";
+import React, { useState } from "react";
 import Search from "./Search";
 
 const Result = ({ searchTitle, kodeData }) => {
