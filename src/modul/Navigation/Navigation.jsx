@@ -11,6 +11,8 @@ const Navigation = () => {
         {name: 'React List & Key', href: '/list-key'},
         {name: 'React Form', href: '/react-form'},
         {name: 'Fetch', href: '/fetch'},
+        {name: 'Search', href: '/search-filter'},
+        {name: 'Todo List App', href: '/todolistapp'},
     ];
 
     return(
