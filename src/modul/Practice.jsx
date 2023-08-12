@@ -11,7 +11,7 @@ const Practice = () =>{
             <p>{login ? 'Anda telah login' : 'Silahkan klik login terlebih dahulu'}</p>
             <button onClick={function(){
             setLogin(false);
-            }}>Login</button>
+            }}>Logout</button>
 
             <div className="angka" style={{display: 'flex', alignItems: 'center', gap: '5px'}}>
             <button onClick={function(){
@@ -49,30 +49,6 @@ const Practice = () =>{
         <button onClick={function(){
             setLogin(true);
         }}>Login</button>
-        {/* <div className="angka" style={{display: 'flex', alignItems: 'center', gap: '5px'}}>
-        <button onClick={function(){
-            setAngka(angka * -1)
-        }}>Negatif</button>
-        <button onClick={function(){
-            setAngka(angka / 10)
-        }}>/</button>
-        <button onClick={function(){
-            setAngka(angka - 1)
-        }}>-</button>
-        <h3>{angka}</h3>
-        <button onClick={function(){
-            setAngka(angka + 1)
-        }}>+</button>
-        <button onClick={function(){
-            setAngka(angka * 10)
-        }}>*</button>
-        <button onClick={function(){
-            setAngka(angka * 1)
-        }}>Positif</button>
-        <input type="number" onChange={function(event){
-            setAngka(Number(event.target.value));
-        }} value={angka}/>
-        </div> */}
         </>
     )
 }
