@@ -13,6 +13,7 @@ const Navigation = () => {
         {name: 'Fetch', href: '/fetch'},
         {name: 'Search', href: '/search-filter'},
         {name: 'Todo List App', href: '/todolistapp'},
+        {name: 'Practice App', href: '/Practice'},
     ];
 
     return(

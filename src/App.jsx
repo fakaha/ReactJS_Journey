@@ -13,6 +13,7 @@ import Fetch from './modul/Fetch'
 import SearchFilter from './modul/SearchFilter'
 import Result from './modul/Result'
 import TodoListApp from './modul/TodoListApp';
+import Practice from './modul/Practice';
 
 function App() {
   const [searchTitle, setSearchTitle] = useState('');
@@ -34,6 +35,7 @@ function App() {
         <Route path='/search-filter' element={<SearchFilter/>}/>
         <Route path='/result' element={<Result/>} searchTitle={searchTitle} kodeData={kodeData} setSearchTitle={setSearchTitle}/>
         <Route path='/todolistapp' element={<TodoListApp/>}/>
+        <Route path='/practice' element={<Practice/>}/>
       </Routes>
     </Router>
   );
